@@ -1,0 +1,19 @@
+.cd-headline rotate-1 {
+  display: inline-block;
+  perspective: 300px;
+}
+.cd-words-wrapper {
+  opacity: 0;
+  transform-origin: 50% 100%;
+  transform: rotateX(180deg);
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ 
+.cd-headline.rotate-1 b.is-visible {
+  position: relative;
+  opacity: 1;
+  transform: rotateX(0deg);
+}
